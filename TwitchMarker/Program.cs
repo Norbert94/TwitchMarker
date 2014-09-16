@@ -26,7 +26,7 @@ namespace TwitchMarker
             public MyCustomApplicationContext()
             {
                 // Initialize Tray Icon
-                MenuItem Settings = new MenuItem("Settings", new EventHandler(ShowPoll));
+                MenuItem Settings = new MenuItem("Settings", new EventHandler(ShowSettings));
                 MenuItem ExitMenu = new MenuItem("Exit", new EventHandler(Exit));
 
                 trayIcon.Icon = TwitchMarker.Properties.Resources.Icon;
@@ -43,7 +43,7 @@ namespace TwitchMarker
                 Application.Exit();
             }
 
-            void ShowPoll(object sender, EventArgs e)
+            void ShowSettings(object sender, EventArgs e)
             {
 
                 if (settings.Visible)
