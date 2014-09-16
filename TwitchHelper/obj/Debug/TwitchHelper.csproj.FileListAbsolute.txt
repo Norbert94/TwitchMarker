@@ -1,0 +1,11 @@
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\bin\Debug\TwitchHelper.exe
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\bin\Debug\TwitchHelper.exe.config
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\obj\Debug\TwitchHelper.Form1.resources
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\obj\Debug\TwitchHelper.Properties.Resources.resources
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\obj\Debug\TwitchHelper.csproj.GenerateResource.Cache
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\obj\Debug\TwitchHelper.exe
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\obj\Debug\TwitchHelper.pdb
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\bin\Debug\TwitchHelper.pdb
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\obj\Debug\TwitchHelper.csprojResolveAssemblyReference.cache

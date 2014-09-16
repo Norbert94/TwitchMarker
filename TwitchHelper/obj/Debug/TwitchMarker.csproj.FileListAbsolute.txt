@@ -1,0 +1,11 @@
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\bin\Debug\TwitchMarker.exe.config
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\obj\Debug\TwitchMarker.csprojResolveAssemblyReference.cache
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\obj\Debug\TwitchMarker.Properties.Resources.resources
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\obj\Debug\TwitchMarker.csproj.GenerateResource.Cache
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\obj\Debug\TwitchMarker.Form1.resources
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\bin\Debug\TwitchMarker.exe
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\bin\Debug\TwitchMarker.pdb
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\obj\Debug\TwitchMarker.exe
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\obj\Debug\TwitchMarker.pdb
