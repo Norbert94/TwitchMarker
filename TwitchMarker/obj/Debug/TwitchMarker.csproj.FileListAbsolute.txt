@@ -9,3 +9,9 @@ C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\b
 C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\bin\Debug\Newtonsoft.Json.xml
 C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\obj\Debug\TwitchMarker.exe
 C:\Users\kevin\documents\visual studio 2013\Projects\TwitchHelper\TwitchHelper\obj\Debug\TwitchMarker.pdb
+C:\Users\kevin\Documents\visual studio 2013\Projects\TwitchMarker\TwitchHelper\bin\Debug\TwitchMarker.exe.config
+C:\Users\kevin\Documents\visual studio 2013\Projects\TwitchMarker\TwitchHelper\obj\Debug\TwitchMarker.exe
+C:\Users\kevin\Documents\visual studio 2013\Projects\TwitchMarker\TwitchHelper\obj\Debug\TwitchMarker.pdb
+C:\Users\kevin\Documents\Visual Studio 2013\Projects\TwitchMarker\TwitchMarker\bin\Debug\TwitchMarker.exe.config
+C:\Users\kevin\Documents\Visual Studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Debug\TwitchMarker.exe
+C:\Users\kevin\Documents\Visual Studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Debug\TwitchMarker.pdb
