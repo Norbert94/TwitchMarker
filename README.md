@@ -22,5 +22,6 @@ Current Limitations
 ====================
 
 *Only the F keys are supported right now. Will be adding support to more keys soon.
-*If you open the program during the stream the timer will be started at the time the stream is opened. I haven't seen a way to 
+
+*If you open the program during the stream the timer will be started at the time you opened the program. I haven't seen a way to 
 get the time the stream has started from twitch. So make sure you always have the application setup before you start streaming.
