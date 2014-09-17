@@ -31,6 +31,7 @@ namespace TwitchMarker
                 trayIcon.Icon = TwitchMarker.Properties.Resources.Icon;
                 trayIcon.ContextMenu = new ContextMenu(new MenuItem[] { Settings, ExitMenu });
                 trayIcon.Visible = true;
+                //Make sure the visible is there.
             }
 
             void Exit(object sender, EventArgs e)

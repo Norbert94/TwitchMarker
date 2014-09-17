@@ -57,7 +57,7 @@ namespace TwitchMarker
                     var time = TimeSpan.FromMilliseconds(timer.ElapsedMilliseconds);
                     string[] lines = { info.game.ToString(), info.title.ToString(), time.ToString(), DateTime.Now.ToString("M/d/yyyy"), "\n" };
 
-                    File.AppendAllLines(Directory.GetCurrentDirectory() + "highlights.txt", lines);
+                    File.AppendAllLines("highlights.txt", lines);
                 }
                 else
                 {

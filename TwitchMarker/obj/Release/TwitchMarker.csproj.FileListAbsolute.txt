@@ -9,3 +9,7 @@ C:\Users\kevin\Documents\Visual Studio 2013\Projects\TwitchMarker\TwitchMarker\b
 C:\Users\kevin\Documents\Visual Studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Release\TwitchMarker.csprojResolveAssemblyReference.cache
 C:\Users\kevin\Documents\Visual Studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Release\TwitchMarker.exe
 C:\Users\kevin\Documents\Visual Studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Release\TwitchMarker.pdb
+C:\Users\kevin\Documents\visual studio 2013\Projects\TwitchMarker\TwitchMarker\bin\Release\TwitchMarker.exe.manifest
+C:\Users\kevin\Documents\visual studio 2013\Projects\TwitchMarker\TwitchMarker\bin\Release\TwitchMarker.application
+C:\Users\kevin\Documents\visual studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Release\TwitchMarker.exe.manifest
+C:\Users\kevin\Documents\visual studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Release\TwitchMarker.application
