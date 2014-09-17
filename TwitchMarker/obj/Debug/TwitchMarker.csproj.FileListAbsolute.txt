@@ -15,3 +15,11 @@ C:\Users\kevin\Documents\visual studio 2013\Projects\TwitchMarker\TwitchHelper\o
 C:\Users\kevin\Documents\Visual Studio 2013\Projects\TwitchMarker\TwitchMarker\bin\Debug\TwitchMarker.exe.config
 C:\Users\kevin\Documents\Visual Studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Debug\TwitchMarker.exe
 C:\Users\kevin\Documents\Visual Studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Debug\TwitchMarker.pdb
+C:\Users\kevin\Documents\visual studio 2013\Projects\TwitchMarker\TwitchMarker\bin\Debug\TwitchMarker.exe
+C:\Users\kevin\Documents\visual studio 2013\Projects\TwitchMarker\TwitchMarker\bin\Debug\TwitchMarker.pdb
+C:\Users\kevin\Documents\visual studio 2013\Projects\TwitchMarker\TwitchMarker\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kevin\Documents\visual studio 2013\Projects\TwitchMarker\TwitchMarker\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kevin\Documents\visual studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Debug\TwitchMarker.csprojResolveAssemblyReference.cache
+C:\Users\kevin\Documents\visual studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Debug\TwitchMarker.Form1.resources
+C:\Users\kevin\Documents\visual studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Debug\TwitchMarker.Properties.Resources.resources
+C:\Users\kevin\Documents\visual studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Debug\TwitchMarker.csproj.GenerateResource.Cache

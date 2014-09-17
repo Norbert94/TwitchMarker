@@ -20,7 +20,6 @@ namespace TwitchMarker
         public class MyCustomApplicationContext : ApplicationContext
         {
             Form1 settings = new Form1();
-            //Form1 strawPoll = new Form1();
             private NotifyIcon trayIcon = new NotifyIcon();
 
             public MyCustomApplicationContext()
@@ -29,7 +28,7 @@ namespace TwitchMarker
                 MenuItem Settings = new MenuItem("Settings", new EventHandler(ShowSettings));
                 MenuItem ExitMenu = new MenuItem("Exit", new EventHandler(Exit));
 
-                trayIcon.Icon = TwitchMarker.Properties.Resources.Icon;
+                trayIcon.Icon = TwitchMarker.Properties.Resources.TMIcon;
                 trayIcon.ContextMenu = new ContextMenu(new MenuItem[] { Settings, ExitMenu });
                 trayIcon.Visible = true;
             }
