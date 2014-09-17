@@ -22,3 +22,8 @@ C:\Users\kevin\Documents\Visual Studio 2013\Projects\TwitchMarker\TwitchMarker\o
 C:\Users\kevin\Documents\Visual Studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Debug\TwitchMarker.csproj.GenerateResource.Cache
 C:\Users\kevin\Documents\Visual Studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Debug\TwitchMarker.exe
 C:\Users\kevin\Documents\Visual Studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Debug\TwitchMarker.pdb
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Debug\TwitchMarker.csprojResolveAssemblyReference.cache
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchMarker\TwitchMarker\bin\Debug\TwitchMarker.exe.manifest
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchMarker\TwitchMarker\bin\Debug\TwitchMarker.application
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Debug\TwitchMarker.exe.manifest
+C:\Users\kevin\documents\visual studio 2013\Projects\TwitchMarker\TwitchMarker\obj\Debug\TwitchMarker.application
