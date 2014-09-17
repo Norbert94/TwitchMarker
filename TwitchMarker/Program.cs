@@ -28,7 +28,7 @@ namespace TwitchMarker
                 MenuItem Settings = new MenuItem("Settings", new EventHandler(ShowSettings));
                 MenuItem ExitMenu = new MenuItem("Exit", new EventHandler(Exit));
 
-                trayIcon.Icon = TwitchMarker.Properties.Resources.TMIcon;
+                trayIcon.Icon = TwitchMarker.Properties.Resources.Icon;
                 trayIcon.ContextMenu = new ContextMenu(new MenuItem[] { Settings, ExitMenu });
                 trayIcon.Visible = true;
             }

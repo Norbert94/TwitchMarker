@@ -108,7 +108,6 @@
   <ItemGroup>
     <Content Include="AppIcon.ico" />
     <Content Include="Resources\TMIcon.ico" />
-    <None Include="Resources\Icon.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
