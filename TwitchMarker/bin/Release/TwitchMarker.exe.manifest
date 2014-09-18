@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TwitchMarker.exe" size="755712">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TwitchMarker.exe" size="756224">
       <assemblyIdentity name="TwitchMarker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>zB0yXHKAHAKbQgo+M6L1eMqmuTMm1UPpM0m7as2XPt4=</dsig:DigestValue>
+        <dsig:DigestValue>7FzrocPKUVmZ/Q9p5cHxDkvngavsGx0EIPnUIHgc1Xs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
