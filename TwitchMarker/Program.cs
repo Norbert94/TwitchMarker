@@ -40,6 +40,8 @@ namespace TwitchMarker
                 trayIcon.Icon = null;
                 trayIcon.Visible = false;
 
+                settings.Cancel();
+                settings.Close();
                 Application.Exit();
             }
 
@@ -49,10 +51,13 @@ namespace TwitchMarker
                 if (settings.Visible)
                 {
                     settings.Focus();
-                    settings.Location = new Point(Screen.PrimaryScreen.Bounds.Bottom/16, Screen.PrimaryScreen.Bounds.Right/16);
+                    settings.Location = new Point(Screen.PrimaryScreen.Bounds.Bottom / 16, Screen.PrimaryScreen.Bounds.Right / 16);
                 }
                 else
+                {
+                    settings.Location = new Point(Screen.PrimaryScreen.Bounds.Bottom / 16, Screen.PrimaryScreen.Bounds.Right / 16);
                     settings.ShowDialog();
+                }
             }
         }
     }

@@ -21,11 +21,13 @@ namespace TwitchMarker
     public partial class Form1 : Form
     {
         private KeyHandler ghk;
+        public bool cancelled = false;
         private Stopwatch timer = new Stopwatch();
         UserInfo info;
 
         public Form1()
         {
+
             InitializeComponent();
             this.ShowInTaskbar = false;
 
@@ -41,7 +43,7 @@ namespace TwitchMarker
                 txt_hotkey.Text = "F11";
                 ghk.Register();
             }
-            if(TwitchMarker.Properties.Settings.Default.channel != "")
+            if (TwitchMarker.Properties.Settings.Default.channel != "")
             {
                 txt_Name.Text = TwitchMarker.Properties.Settings.Default.channel;
                 newThread();
@@ -70,6 +72,11 @@ namespace TwitchMarker
             }
         }
 
+        public void Cancel()
+        {
+            cancelled = true;
+        }
+
         protected override void WndProc(ref Message m)
         {
             if (m.Msg == Constants.WM_HOTKEY_MSG_ID)
@@ -89,45 +96,45 @@ namespace TwitchMarker
         private void newThread()
         {
             new Thread(delegate()
+            {
+                while (!cancelled)
                 {
-                    while (true)
+                    try
                     {
-                        try
+                        using (var webClient = new System.Net.WebClient())
                         {
-                            using (var webClient = new System.Net.WebClient())
+                            if (txt_Name.Text != "")
                             {
-                                if (txt_Name.Text != "")
-                                {
-                                    var json = webClient.DownloadString("https://api.twitch.tv/kraken/streams/" + txt_Name.Text);
-                                    // Now parse with JSON.Net
-                                    info = new UserInfo(json);
-                                }
-                            }
-
-                            if (info.streamLive() && !timer.IsRunning)
-                            {
-                                timer.Start();
-                            }
-
-                            if (!info.streamLive())
-                            {
-                                timer.Stop();
+                                var json = webClient.DownloadString("https://api.twitch.tv/kraken/streams/" + txt_Name.Text);
+                                // Now parse with JSON.Net
+                                info = new UserInfo(json);
                             }
                         }
 
-                        catch (System.Net.WebException ex)
+                        if (info.streamLive() && !timer.IsRunning)
                         {
-                            Console.WriteLine(ex.StackTrace);
+                            timer.Start();
                         }
 
-                        catch (NullReferenceException ex)
+                        if (!info.streamLive())
                         {
-                            Console.WriteLine(ex.StackTrace);
+                            timer.Stop();
                         }
-
-                        Thread.Sleep(1000);
                     }
-                }).Start();
+
+                    catch (System.Net.WebException ex)
+                    {
+                        Console.WriteLine(ex.StackTrace);
+                    }
+
+                    catch (NullReferenceException ex)
+                    {
+                        Console.WriteLine(ex.StackTrace);
+                    }
+
+                    Thread.Sleep(1000);
+                }
+            }).Start();
             this.Location = new Point(this.Location.X, this.Location.Y - 5000);
         }
 
@@ -144,7 +151,7 @@ namespace TwitchMarker
 
         private void cancel_btn_Click(object sender, EventArgs e)
         {
-            if(txt_hotkey.Text == "F11")
+            if (txt_hotkey.Text == "F11")
             {
                 ghk = new KeyHandler(Keys.F11, this);
                 txt_hotkey.Text = "F11";
@@ -156,7 +163,7 @@ namespace TwitchMarker
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
-            setKey(e.KeyData);  
+            setKey(e.KeyData);
         }
 
         private void setKey(Keys e)
