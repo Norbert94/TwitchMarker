@@ -22,6 +22,8 @@ namespace TwitchMarker
     {
         private KeyHandler ghk;
         public bool cancelled = false;
+        public string savedChannel;
+        public Keys savedHotkey;
         private Stopwatch timer = new Stopwatch();
         UserInfo info;
 
@@ -34,6 +36,7 @@ namespace TwitchMarker
             if (TwitchMarker.Properties.Settings.Default.hotkey != Keys.None)
             {
                 //ghk = new KeyHandler(TwitchMarker.Properties.Settings.Default.hotkey, this);
+                savedHotkey = TwitchMarker.Properties.Settings.Default.hotkey;
                 setKey(TwitchMarker.Properties.Settings.Default.hotkey);
                 ghk.Register();
             }
@@ -46,6 +49,7 @@ namespace TwitchMarker
             if (TwitchMarker.Properties.Settings.Default.channel != "")
             {
                 txt_Name.Text = TwitchMarker.Properties.Settings.Default.channel;
+                savedChannel = txt_Name.Text;
                 newThread();
             }
         }
@@ -89,6 +93,8 @@ namespace TwitchMarker
             ghk.Register();
             newThread();
 
+            savedChannel = txt_Name.Text;
+            savedHotkey = TwitchMarker.Properties.Settings.Default.hotkey;
             TwitchMarker.Properties.Settings.Default.channel = txt_Name.Text;
             TwitchMarker.Properties.Settings.Default.Save();
         }
@@ -157,6 +163,9 @@ namespace TwitchMarker
                 txt_hotkey.Text = "F11";
                 ghk.Register();
             }
+
+            txt_Name.Text = savedChannel;
+            setKey(savedHotkey);
 
             this.Location = new Point(this.Location.X, this.Location.Y - 5000);
         }

@@ -47,7 +47,6 @@ namespace TwitchMarker
 
             void ShowSettings(object sender, EventArgs e)
             {
-
                 if (settings.Visible)
                 {
                     settings.Focus();
