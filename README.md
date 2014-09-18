@@ -11,12 +11,8 @@ happened hit that key and you will have that time save for future use. Enjoy!
 Instructions
 ============
 
-Open the .exe file the program will now be running in the taskbar(bottom right). Right click on the icon click settings this
-will bring up a page for you to type in your twitch name. Tyep in the twitch name(do not put twitch.tv/username, just do
-the username). To change the hotkey click in the textbox for the hotkey and hit the desired F key. Currently I only support
-the F keys I am working on expanding this. Once done with the application do not close out from the task manager right click exit.
-That way it will save your username and hotkey for the next time you launch the application.  A .txt file will be generated at the
-place of the .exe. 
+Open the .exe located in (Exe Folder) the program will now be running in the taskbar(bottom right). 
+Right click on the icon and click settings this will bring up a page for you to type in your twitch name. Type in the twitch name(do not put twitch.tv/username, just do the username). To change the hotkey click in the textbox for the hotkey and hit the desired F key. Currently I only support the F keys I am working on expanding this. Once done with the application do not close out from the task manager, instead right click the icon in the taskbar and click exit. That way it will save your username and hotkey for the next time you launch the application.  A .txt file will be generated at theplace of the .exe. 
 
 Current Limitations
 ====================
