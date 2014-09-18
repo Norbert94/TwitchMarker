@@ -2,11 +2,10 @@ TwitchMarker
 ============
 
 An easy way to never forget when to highlight video for twitch.tv. Used for streamers who dont want to write down the time
-of a highlight on a piece of paper. This application does if for you. Hit a buttona and a text file will have the time, date,
-game, and title of your current broadcast. Do as many highlights as you want it will all be waiting in the file for you. 
-Forget to check your highlights from 2 days ago thats fine all your highlights will be in the text file so you can see exactly
-when it happened. Also you don't have to be a streamer to use this program. Watching your favorite streamer and something awesome
-happened hit that key and you will have that time save for future use. Enjoy!
+of a highlight on a piece of paper. This application does if for you. Hit a button and a text file will have the time, date,
+game, and title of your current broadcast. Do as many highlights as you want it will all be waiting in the file. 
+Forgot to check your highlights from 2 days ago? Thats fine all your highlights will be in the text file so you can see exactly
+when you need to highlight. Also you don't have to be a streamer to use this program. Watching your favorite streamer and something awesome happened hit that key and you will have that time save for future use. Enjoy!
 
 Instructions
 ============
